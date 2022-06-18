@@ -130,23 +130,31 @@ footer{
     text-align: center;
 }
 
-.productos{
-    background-color: white;
-    border-radius: 2rem;
-    margin-top: 2rem;
-   
-}
-
-.productoImagen{
-    height: 500px;
-    border-radius: 20px;
-}
-.productoshtml{
+.container{
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(1fr, 1fr); 
+    grid-template-columns: repeat(1fr, 1fr);
     margin: 2rem;
+   
 }
+.productos{
+    background-color: rgb(159, 208, 114);
+    border-radius: 2rem;
+    margin-top: 2rem;
+    overflow:hidden;
+    background: rgb(182, 217, 179);
+    box-shadow:0px 1px 10px rgba(0,0,0,0.2) ;
+    transition: all 400ms ease;
+}
+.productos:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4) ;
+    transform: translateY(-3%);
+}
+.productoImagen{
+height: 500px;
+border-radius: 20px;
+}  
+
 @media (min-width: 576px) {
     .productoshtml{
         grid-template-columns: repeat(3, 1fr);
