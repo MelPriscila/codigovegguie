@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:wght@100&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+    }
+    /** globales **/
+    
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+ header{
+    background-color: yellowgreen;
+    height: 20rem;
+ }
+p {
+     font-size: 1.8rem;
+     margin-top:  1.9rem;;
+     font-family: 'Poppins';
+     text-align: center;
+}
+
+a {
+     text-decoration: none;
+}
+.green{
+    color: white;
+   background-color:  rgb(35, 92, 35);
+    text-align: center;
+}
+
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.center{
+  text-align: center;
+}
+@media (max-width: 480px){ /** Codigo para pantallas mayor a 768px **/
+    .center{
+        display: flex;
+        justify-content: left;
+    }
+}
+.logo{
+    color: white;
+}
+.nameLogo{font-weight: 400;}
+.spanBold {
+    color: black;
+    font-weight: bold;}
+
+
+/* Navegacion */
+.navegacion {
+    background-color: rgb(35, 34, 34);
+    display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+@media (min-width: 576px){
+.navegacion {
+    flex-direction: row;
+    padding: 0 5rem;
+}
+}
+.navegacionLink{
+    color: white;
+    padding:1rem;
+}
+
+ .navegacionLink:hover {
+    color:#71a14a;
+}
+
+
+/* Main */
+@media (min-width: 576x) {
+    .contenidoInicio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        padding: 1rem 0;
+    }
+}
+.parrafInicio{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: 1.8em;
+    text-align: justify;
+}
+img{
+    margin-top: 1.5rem;
+}
+
+/* footer */
+footer{
+   background-color: yellowgreen;
+   display: flex;
+   margin-top: 1.5em;
+   align-items: center;
+   justify-content: space-around;
+}
+.footerIcon{
+    padding: 0 20px 0 20px;
+}
+.boxContainer{
+    text-align: center;
+    margin: auto;
+}
+
+/* Productos */
+.misProductos{
+    background-color: rgb(35, 92, 35);
+    color: white;
+    text-align: center;
+}
+
+.productos{
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 2rem;
+   
+}
+
+.productoImagen{
+    height: 500px;
+    border-radius: 20px;
+}
+.productoshtml{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1fr, 1fr); 
+    margin: 2rem;
+}
+@media (min-width: 576px) {
+    .productoshtml{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 10px;
+    border-radius: 1px solid (0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgb(49, 47, 47);
+}
+button:hover{
+    background-color: bisque;
+}
+
+/* Formulario */
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(158, 201, 158);
+    text-align: center;
+    padding: 20px;
+    margin-top: 1rem;
+}
+@media (min-width: 768px) {
+    .formularioInput {
+        width: 50%;
+    }
+}
+.formInput{
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    width: min( 50rem, 100% )
+}
+.veganismoParraf{
+    text-align: justify;
+
+}
+ 
+  
+
+
+
