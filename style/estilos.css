@@ -8,10 +8,11 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%; 
+    font-size: 62.5%;
     }
     /** globales **/
-    
+
+
 body {
     background-color: var(--primario);
     font-size: 1.6rem;
@@ -22,6 +23,7 @@ body {
     background-color: yellowgreen;
     height: 20rem;
  }
+ 
 p {
      font-size: 1.8rem;
      margin-top:  1.9rem;;
@@ -38,14 +40,10 @@ a {
     text-align: center;
 }
 
-
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-}
 .center{
   text-align: center;
 }
+
 @media (max-width: 480px){ /** Codigo para pantallas mayor a 768px **/
     .center{
         display: flex;
@@ -55,57 +53,45 @@ a {
 .logo{
     color: white;
 }
+
 .nameLogo{font-weight: 400;}
+
 .spanBold {
     color: black;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
 
-/* Navegacion */
-.navegacion {
-    background-color: rgb(35, 34, 34);
+/* Navbar */
+.navbar{
     display: flex;
-   flex-direction: column;
+    font-size: 2rem;
     justify-content: space-between;
     align-items: center;
-    font-size: 2.5rem;
-}
 
-@media (min-width: 576px){
-.navegacion {
-    flex-direction: row;
-    padding: 0 5rem;
-}
-}
-.navegacionLink{
-    color: white;
-    padding:1rem;
-}
 
- .navegacionLink:hover {
-    color:#71a14a;
 }
-
 
 /* Main */
-@media (min-width: 576x) {
-    .contenidoInicio{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-        padding: 1rem 0;
-    }
+@media (min-widht: 360px){
+.contenidoInicio{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    column-gap: 2rem;
+    padding: 1rem 0;
+}
 }
 .parrafInicio{
-    color: rgb(0, 0, 0);
+    color:rgb(40, 34, 34);
     font-weight: bolder;
     font-style: italic;
-    margin-bottom: 1.8em;
-    text-align: justify;
+    text-align: center;
 }
 img{
-    margin-top: 1.5rem;
+    margin: 1.5rem
 }
+
+
 
 /* footer */
 footer{
@@ -135,7 +121,7 @@ footer{
     gap: 20px;
     grid-template-columns: repeat(1fr, 1fr);
     margin: 2rem;
-   
+
 }
 .productos{
     background-color: rgb(159, 208, 114);
@@ -153,22 +139,24 @@ footer{
 .productoImagen{
 height: 500px;
 border-radius: 20px;
-}  
+}
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
     .productoshtml{
         grid-template-columns: repeat(3, 1fr);
+        margin: 15px;
     }
 }
-button{
-    font-size: 1.5em;
+.boton{
+    font-size: 2rem;
+    margin-top: 5px;
     font-weight: bold;
     padding: 2px 10px;
     border-radius: 10px;
     border-radius: 1px solid (0,0,0,0.5);
     box-shadow: 2px 2px 10px rgb(49, 47, 47);
 }
-button:hover{
+.boton:hover{
     background-color: bisque;
 }
 
@@ -181,7 +169,7 @@ button:hover{
     padding: 20px;
     margin-top: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .formularioInput {
         width: 50%;
     }
@@ -197,8 +185,10 @@ button:hover{
     text-align: justify;
 
 }
- 
-  
+
+
+
+
 
 
 
