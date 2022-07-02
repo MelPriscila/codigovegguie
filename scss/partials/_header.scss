@@ -1,0 +1,40 @@
+@import '../base/base';
+.navlogo {
+    background-color: rgb(217, 201, 201);
+    color: black;
+    text-align: center;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    margin-top: auto;
+    margin-top: 2px;
+    background-color: rgb(42, 42, 42);
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            margin-right: 16px;
+
+            a {
+                text-decoration: none;
+                font-weight: 3rem;
+                font-size: 20px;
+                color:$color-principal;
+                padding: 16px 12px 18px 12px;
+
+                &:hover {
+                    color: rgb(129, 201, 129);
+                }
+            }
+        }
+    }
+}
+
+
