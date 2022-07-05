@@ -1,0 +1,11 @@
+@mixin  borde {
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+@mixin flex ($direction: wrap){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: $direction;
+}
