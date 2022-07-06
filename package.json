@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss style/estilo.css",
-"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build-css": "node-sass --include-path scss scss/style.scss style/estilo.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
 
   },
   "repository": {
@@ -21,6 +22,6 @@
   "homepage": "https://github.com/MelPriscila/codigovegguie#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.18"
+    "nodemon": "^2.0.19"
   }
 }

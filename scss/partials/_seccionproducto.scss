@@ -9,8 +9,19 @@
     margin-top: 100px;
     width: 100%;
     max-width: 1200px;
-    @include flex;
+    @include flex;  
+
+
+    .bold{
+        display: block;
+        background-color: black;
+        padding: 15px 20px;
+        margin: 20px 50px;
+        color: white;
+    }
+
  
+    
     .card {
         width: 330px;
         height: 430px;
