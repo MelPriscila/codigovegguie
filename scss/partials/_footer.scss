@@ -3,6 +3,7 @@ footer {
     font-family: 'Poppins';
     padding: 30px 0;
     margin-top: 10px;
+    margin-bottom: 0;
     box-sizing: border-box;
 
     ul {
@@ -28,7 +29,6 @@ footer {
                 padding: 0 15px;
                 font-size: 18px;
                 color: #ffffff;
-                text-transform: capitalize;
                 margin-bottom: 30px;
                 font-weight: 500;
                 position: relative;
@@ -47,7 +47,6 @@ footer {
 .box h4 {
     font-size: 18px;
     color: #ffffff;
-    text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 500;
     position: relative;
@@ -66,7 +65,6 @@ footer {
 
 .box ul li a {
     font-size: 16px;
-    text-transform: capitalize;
     color: #ffffff;
     font-weight: 300;
     display: block;
