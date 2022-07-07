@@ -19,11 +19,13 @@ body {
 @import './base/extends';
 
 /*partials*/
+
 @import 'partials/header';
 @import './partials/banner';
 @import './partials/unitealcambio';
 @import './partials/footer';
 @import './partials/productos';
+@import './partials/botones';
 @import './partials/seccionproducto';
 @import './partials/preguntas';
 @import './partials/formulario';

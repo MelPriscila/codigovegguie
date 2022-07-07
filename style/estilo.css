@@ -11,11 +11,11 @@ body {
   height: 600px; }
 
 /*base*/
-.btn {
-  font-size: 1rem;
-  margin-top: 5px;
-  padding: 2px 10px;
-  border-radius: 1px solid 0, 0, 0, 0.5;
+.boton, .botonComprar, .btn-primary {
+  font-size: 20px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
   box-shadow: 2px 2px 10px #312f2f; }
 
 /*partials*/
@@ -77,6 +77,7 @@ footer {
   font-family: 'Poppins';
   padding: 30px 0;
   margin-top: 10px;
+  margin-bottom: 0;
   box-sizing: border-box; }
   footer ul {
     list-style: none; }
@@ -95,7 +96,6 @@ footer {
         padding: 0 15px;
         font-size: 18px;
         color: #ffffff;
-        text-transform: capitalize;
         margin-bottom: 30px;
         font-weight: 500;
         position: relative; }
@@ -107,7 +107,6 @@ footer {
 .box h4 {
   font-size: 18px;
   color: #ffffff;
-  text-transform: capitalize;
   margin-bottom: 30px;
   font-weight: 500;
   position: relative; }
@@ -123,7 +122,6 @@ footer {
 
 .box ul li a {
   font-size: 16px;
-  text-transform: capitalize;
   color: #ffffff;
   font-weight: 300;
   display: block;
@@ -158,6 +156,20 @@ footer {
   height: 500px;
   border-radius: 20px; }
 
+.botonComprar {
+  background-color: black;
+  color: white;
+  border-radius: 10px; }
+
+.btn-primary {
+  padding: 4px 10px;
+  background-color: #9ec99e;
+  border-color: #9ec99e; }
+
+.botonEnviar {
+  padding: 9px;
+  background-color: #cde2b4; }
+
 .productotitulo {
   color: white;
   background-color: #305730;
@@ -172,10 +184,14 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: wrap; }
+  .container .precio {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase; }
   .container .card {
     width: 330px;
-    height: 430px;
-    border-radius: 8px;
+    height: 500px;
+    border-radius: 20px;
     margin: auto;
     margin-bottom: 10px;
     overflow: hidden;
@@ -185,10 +201,6 @@ footer {
     .container .card:hover {
       box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
       transform: translateY(-3%); }
-
-.container .card img {
-  height: 500px;
-  border-radius: 20px; }
 
 .preguntas {
   background-color: #9ec99e;
@@ -231,6 +243,9 @@ footer {
       font-style: italic;
       margin-bottom: 1.8em;
       text-align: justify; }
+
+.contenedorvegguie text-align:right .center {
+  text-align: center; }
 
 .veganismo {
   background-color: #9ec99e; }

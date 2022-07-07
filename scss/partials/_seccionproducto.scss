@@ -1,8 +1,10 @@
-.productotitulo {
-    color: white;
-    background-color: rgb(48, 87, 48);
-    text-align: center;
-}
+
+    .productotitulo {
+        color: white;
+        background-color: rgb(48, 87, 48);
+        text-align: center;
+    }
+
 
 .container {
     color: black;
@@ -10,11 +12,17 @@
     width: 100%;
     max-width: 1200px;
     @include flex;
- 
+    
+    .precio{
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    }
+
     .card {
         width: 330px;
-        height: 430px;
-        border-radius: 8px;
+        height: 500px;
+        border-radius: 20px;
         margin: auto;
         margin-bottom: 10px;
         overflow: hidden;
@@ -28,9 +36,4 @@
             transform: translateY(-3%);
         }
     }
-}
-
-.container .card img {
-    height: 500px;
-    border-radius: 20px;
 }
